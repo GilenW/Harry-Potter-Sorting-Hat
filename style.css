@@ -1,14 +1,23 @@
+body{
+
+
+}
+.container{
+    background-color: #1f291f;
+}
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
-    border: 2px solid;
+    margin: 0;
+    padding: 20px;
+    background-color: #1f291f;
+    color: white;
+    margin-bottom: 50px;
 }
 
-.right-links{
-
+.logo{
+    font-size: 24px;
 }
 
 ul{
@@ -18,13 +27,35 @@ ul{
     align-items: center;
     margin: 0;
     padding: 0;
+    gap: 30px;
 
-    border: 2px solid;
 }
 
 a{
     text-decoration: none;
+    color: white;
 
+}
 
-    border: 2px solid;
+.part2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f291f;
+    color: white;
+    padding: 20px;
+
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.secondary-text{
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+#img1{
+    margin-left: 30px;
 }
