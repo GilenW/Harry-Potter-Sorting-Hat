@@ -1,5 +1,5 @@
 body{
-
+    margin: 0%;
 
 }
 .container{
@@ -142,15 +142,18 @@ a{
     border-radius: 2%;
 }
 
-.footer .text{
-    color: white;
-}
-
 .signup2{
     color: white;
     background-color: #3882f6;
     padding: 5px 30px;
     border-radius: 10px;
     border: 2px solid white;
+    flex-grow: auto;
 }
+
+.footer .text{
+    color: white;
+}
+
+
 
