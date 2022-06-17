@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    border: 2px solid;
+}
+
+.right-links{
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    border: 2px solid;
+}
+
+a{
+    text-decoration: none;
+
+
+    border: 2px solid;
+}
