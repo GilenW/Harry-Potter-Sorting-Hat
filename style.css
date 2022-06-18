@@ -1,11 +1,13 @@
 body{
     margin: 0%;
+    
 
 }
 .container{
     background-image:url(./images/hogwarts-castle-.jpg);
     display: flex;
     justify-content: center;
+    
 
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -89,13 +91,24 @@ a{
 }
 
 #signup1{
-    color: white;
-    background-color: #3882f6;
-    padding: 7px 30px;
-    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #020618f3;
+    padding: 10px 20px;
+
     border: none;
+    box-shadow: 1px 1px 20px white;
+    /*box-shadow: 10px 10px 20px #2a623d, -10px 10px 20px #ae0001, -10px -10px 20px #222f5b, 10px -10px 20px #ecb939  ;*/
+
 }
 
+#signup1:hover{
+
+    color: #bebebe;
+    cursor: pointer;
+    background:linear-gradient(45deg,#2a623d,#ae0001,#222f5b, #ecb939);
+
+
+}
 .part3{
     display: flex;
     justify-content: center;
