@@ -14,12 +14,13 @@ body{
     background-image:url(./images/hogwarts-castle-.jpg);
     display: flex;
     justify-content: center;
-    
+    background-color: #1f291f; 
 
-    height: 500px; /* You must set a specified height */
+
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: 100%; /* Resize the background image to cover the entire container */
+
 }
 
 .container2{
@@ -32,7 +33,7 @@ body{
     margin: 0;
     padding: 20px;
 
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .awesome{
@@ -67,15 +68,20 @@ ul{
 a{
     text-decoration: none;
     color: #e5e7eb;
+    padding: 5px;
 
+}
+
+a:hover{
+    background-color: #d3a625;
 }
 
 .part2{
     display: flex;
     justify-content: space-between;
 
-
-    padding: 20px;
+    padding: 0px;
+    margin-bottom: 50px;
 
 }
 
@@ -124,10 +130,6 @@ a{
     justify-content: center;
     text-align: center;
     padding: 50px 0px 100px;
-
-    
-
-
 }
 
 .information{
